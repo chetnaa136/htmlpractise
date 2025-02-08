@@ -1,0 +1,58 @@
+#ok{
+    color: green;
+}
+.para{
+    text-align: center;
+}
+.head1{
+    text-align: end;
+}
+.italic{
+    text-align: right;
+}
+.head3{
+    text-align: start;
+}
+.pa{
+    color: rgb(255, 4, 0);
+}
+/* rgp ki value 0 se lekr 255 tk hoti hai */
+/* white k liye teeno ki values 255 aur black k liye 0 */
+/* a ka matlab alpha ye opacity bataega */
+
+/* 4 values hoti hai text shadow mein vertical,horizontal shadow aur kitni blur chahiye aur color */
+#o1{
+    color: blue;
+  
+}
+#o2{
+    color: aquamarine;
+}
+#o3{
+    color: brown;
+}
+#o4{
+    color: chocolate;
+}
+#o5{
+    color: chartreuse;
+}
+#o6{
+    color: pink;
+}
+#shadow{
+    text-shadow: -15px 10px 3px gray;
+    
+}
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    box-shadow:15px 8px 4px 10px gray;
+    border: 1px solid black;
+}
+/* right ki jagah left chahiye toh negative value lenge */
+/* box ko karnio hai toh box shadow */
+/* box shadow mein ek extra value hoti hai spread distance yane kitni spread karni hai */
+/* isme bhi negative values use hoti hai */
+/* isme x axis same hoti hai but y axis ulti hoti hai yaane niche hoti hai */
