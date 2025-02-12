@@ -1,0 +1,24 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#container{
+    display: flex;
+   justify-content: space-evenly;
+   
+}
+/* display flex se side side mein aayega 
+justify content gets activated after diplay 
+justify content se jo child div hai unki position tum change krsakte ho
+*/

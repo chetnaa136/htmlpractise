@@ -47,9 +47,14 @@
 #box{
     height: 400px;
     width: 400px;
-    background-color: red;
-    box-shadow:15px 8px 4px 10px gray;
+ box-shadow:15px 8px 30px 10px gray;
     border: 1px solid black;
+    background-image: url(../images/hello.jpg); 
+  background-repeat: repeat-x;
+   background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+
 }
 /* right ki jagah left chahiye toh negative value lenge */
 /* box ko karnio hai toh box shadow */
